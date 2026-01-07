@@ -70,7 +70,8 @@ def bar_chart(csv_file: str) -> None:
 
 
     # Show the chart
-    st.plotly_chart(fig, use_container_width=True)    
+    st.plotly_chart(fig, width="stretch")
+   
     
 def plot_sentiment(csv_file: str) -> None:
     # Call analyze_sentiment function to get the results
@@ -110,7 +111,8 @@ def create_scatterplot(csv_file: str, x_column: str, y_column: str) -> None:
     )
 
     # Display plot in Streamlit
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
+
     
     
     

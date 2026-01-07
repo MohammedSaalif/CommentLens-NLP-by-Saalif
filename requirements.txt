@@ -1,8 +1,30 @@
-streamlit
-pandas==1.4.2
-nltk==3.7
-plotly==5.14.1
-colorama==0.4.4
-google-api-python-client==2.50.0
-protobuf==3.19.0
-pip==23.1.2
+# streamlit
+# pandas==1.4.2
+# nltk==3.7
+# plotly==5.14.1
+# colorama==0.4.4
+# google-api-python-client==2.50.0
+# protobuf==3.19.0
+# pip==23.1.2
+# Core app
+streamlit>=1.25,<1.53
+
+# Data handling (Python 3.12 safe)
+numpy==1.26.4
+pandas>=2.0
+
+# NLP
+nltk>=3.7
+
+# Visualization
+plotly>=5.14
+altair==4.2.2
+
+# Utilities
+colorama>=0.4
+
+# YouTube API
+google-api-python-client>=2.50
+
+# Compatibility
+protobuf>=3.19
